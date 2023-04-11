@@ -72,6 +72,38 @@ input, select, textarea {
 	appearance: none;
 }
 
+/* Add this to your CSS */
+#companies-logos {
+	text-align: center;
+	padding: 2rem 0;
+  }
+  
+  .logos-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+	
+  }
+  
+  .logos-wrapper a {
+	text-decoration: none;
+  }
+
+  .logos-wrapper a img {
+	border: none;
+	outline: none;
+	text-decoration: none;
+	box-shadow: none;
+  }
+
+  .company-logo {
+	max-width: 150px;
+	height: auto;
+  }
+  
+
 /* Basic */
 
 	html {
